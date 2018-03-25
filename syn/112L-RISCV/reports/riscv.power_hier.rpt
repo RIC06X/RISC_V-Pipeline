@@ -1,0 +1,49 @@
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+        -verbose
+Design : riscv
+Version: J-2014.09-SP4
+Date   : Sat Mar 24 14:13:04 2018
+****************************************
+
+
+Library(s) Used:
+
+    saed32lvt_tt1p05vn40c (File: /users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db)
+
+
+Operating Conditions: tt1p05vn40c   Library: saed32lvt_tt1p05vn40c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+riscv                  35000             saed32lvt_tt1p05vn40c
+Datapath               35000             saed32lvt_tt1p05vn40c
+instructionmemory      8000              saed32lvt_tt1p05vn40c
+RegFile                16000             saed32lvt_tt1p05vn40c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+riscv                                    72.482 2.00e+03 1.38e+10 1.58e+04 100.0
+  dp (Datapath)                          72.483 2.00e+03 1.38e+10 1.58e+04 100.0
+    rf (RegFile)                         35.456 1.65e+03 1.01e+10 1.18e+04  74.3
+    instr_mem (instructionmemory)         2.684    5.055 1.15e+08  122.418   0.8
+1

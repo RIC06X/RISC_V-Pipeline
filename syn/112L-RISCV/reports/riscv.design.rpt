@@ -1,0 +1,97 @@
+ 
+****************************************
+Report : design
+Design : riscv
+Version: J-2014.09-SP4
+Date   : Sat Mar 24 14:13:03 2018
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    saed32lvt_tt1p05vn40c (File: /users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db)
+
+Local Link Library:
+
+    {/users/ugrad2/2012/spring/pooriam/libraries//saed32lvt_tt1p05vn40c.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : tt1p05vn40c
+    Library : saed32lvt_tt1p05vn40c
+    Process :   1.00
+    Temperature : -40.00
+    Voltage :  1.050
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    Selected automatically from the total cell area.
+
+Name           :   35000
+Location       :   saed32lvt_tt1p05vn40c
+Resistance     :   0.001187
+Capacitance    :   0.00027
+Area           :   0.01
+Slope          :   140.36
+Fanout   Length   Points Average Cap Std Deviation
+--------------------------------------------------------------
+     1    16.92
+     2    39.03
+     3    64.09
+     4    92.51
+     5   124.73
+     6   161.17
+     7   202.25
+     8   248.42
+     9   300.09
+    10   357.68
+    11   421.63
+    12   492.37
+    13   570.31
+    14   655.89
+    15   749.54
+    16   851.67
+    17   962.72
+    18  1083.11
+    19  1213.28
+    20  1353.64
+
+
+
+Wire Loading Model Mode: enclosed.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    None Required
+
+Design Parameters:
+
+    None specified.
+1
